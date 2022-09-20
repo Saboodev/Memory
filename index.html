@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="blocTitre">
+        <h1>Jeu du <span>Memory</span></h1>
+        <p class="advice">Trouvez les paires en un minimum de coup</p>
+        <div class="score">Nombre de coups : 0</div>
+    </div>
+
+    <div class="grid">
+      <div class="card" data-attr="banana">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/banana.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="apple">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/apple.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="apple">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/apple.svg" alt="apple" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="banana">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/banana.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="grapes">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/grapes.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="cherry">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/cherry.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="tomato">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/tomate.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="tomato">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/tomate.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="cherry">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/cherry.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="grapes">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/grapes.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="straw">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/straw.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+
+      <div class="card" data-attr="straw">
+        <div class="double-face">
+          <div class="face">
+            <img src="ressources/straw.svg" />
+          </div>
+          <div class="back"><img class="imgBack" src="ressources/logo.png" /></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="confetti.js"></script>
+    
+  </body>
+</html>
