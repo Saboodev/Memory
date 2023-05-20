@@ -9,7 +9,7 @@
 body {
   min-height: 100vh;
   font-family: lato, Helvetica, sans-serif;
-  background-image: repeating-linear-gradient(249deg, transparent 0px, transparent 3px,rgb(255,255,255) 3px, rgb(255,255,255) 32px),repeating-linear-gradient(307deg, transparent 0px, transparent 3px,rgb(255,255,255) 3px, rgb(255,255,255) 32px),linear-gradient(90deg, hsl(191,85%,78%),hsl(242.429,85%,78%),hsl(293.857,85%,78%),hsl(345.286,85%,78%),hsl(36.714,85%,78%),hsl(88.143,85%,78%),hsl(139.571,85%,78%));
+  background-image: url("ressources/background.svg");
   padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
 
