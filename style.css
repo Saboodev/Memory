@@ -98,6 +98,7 @@ h1 span {
 .back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  border: solid 1px;
 }
 
 .face {
@@ -105,7 +106,7 @@ h1 span {
 }
 
 .face img {
-  width: 70%;
+  width: 60%;
 }
 
 /* .imgBack {
