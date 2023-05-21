@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   font-family: lato, Helvetica, sans-serif;
   background-image: url("ressources/background.svg");
-  background-size: cover;
+  /*background-size: cover;*/
   padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
 
