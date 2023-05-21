@@ -109,10 +109,10 @@ h1 span {
   width: 60%;
 }
 
-/* .imgBack {
+.imgBack {
   width: 500px;
   padding: 1rem;
-} */
+} 
 
 .active {
   transform: rotateY(180deg);
