@@ -57,7 +57,7 @@ function saveNumberOftries(){
   numberOfTries++;
   const checkForEnd = innerCards.filter(card => !card.classList.contains("active"))
   if(!checkForEnd.length) {
-    advice.textContent = `Bravo ! Appuyez sur "espace" pour relancer une partie.`
+    advice.textContent = `J'ai dit Oui ! `
     score.textContent = `Votre score final : ${numberOfTries}`
 
      // animation confettis
