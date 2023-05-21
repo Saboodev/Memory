@@ -78,7 +78,7 @@ h1 span {
   transform-style: preserve-3d;
   will-change: transform;
   transition: transform 0.6s;
-  border: solid 1px;
+  /*border: solid 1px;*/
   box-shadow: 0 5px 5px rgba(0,0,0,0.3);
   pointer-events: none;
 }
@@ -98,7 +98,7 @@ h1 span {
 .back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  border: solid 1px;
+  /*border: solid 1px;*/
 }
 
 .face {
